@@ -1,0 +1,14 @@
+package com.gdx.game;
+
+import com.badlogic.gdx.Game;
+import com.fireworks.screens.MainScreen;
+
+
+public class MainGame extends Game {
+
+    @Override
+    public void create() {
+        setScreen(new MainScreen());
+    }
+
+}
